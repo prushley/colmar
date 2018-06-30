@@ -2,7 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
+    <!-- add back in later-->
     <link rel="stylesheet" href="./resources/css/reset.css">
+
     <link rel="stylesheet" href="./resources/css/style.css">
     <title>Colmar Academy</title>
   </head>
@@ -10,14 +13,20 @@
   <body>
 
   <header>
-    <img src="./resources/images/ic-logo.svg" alt="">
-    <div class="desktop">
-      <p><span>COLMAR</span>ACADEMY</p>
-      <ul>
-        <li><a href="#">On Campus</a></li>
-        <li><a href="#">Online</a></li>
-        <li><a href="#">For companies</a></li>
-        <li><a href="#">Sign in</a></li>
+    <div class="header-content">
+      <div class="logo">
+        <img src="./resources/images/ic-logo.svg" alt="">
+        <div class="desktop-logo">
+          <p><span>COLMAR</span>ACADEMY</p>
+        </div>
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#">On campus</a></li>
+          <li><a class="middle" href="#">Online</a></li>
+          <li><a href="#">For companies</a></li>
+          <li><a class="end" href="#">Sign in</a></li>
+      </nav>
     </div>
     <!--add mobile header here later-->
   </header>
@@ -27,16 +36,57 @@
 
       <!--learn something new everyday container-->
       <div class="first-container">
-        <img src="./resources/images/banner.jpg" alt="">
-        <h2>Learn something new everyday</h2>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-        <p>Start here</p>
-
+        <div class="banner-container">
+          <img src="./resources/images/banner.jpg" alt="">
+        </div>
+        <div class="text-container">
+          <h2>Learn something</h2>
+          <h2>new everyday</h2>
+          <div class="sub-headline">
+            <h4>Lorem ipsum dolor sit amet,</h4>
+            <h4>consectetur adipisicing elit.</h4>
+          </div>
+          <div class="start-here-btn">
+            <p>Start here</p>
+          </div>
+        </div>
       <!--end of learn something new everyday container-->
       </div>
 
+      <!--learn it doesn't hurt container-->
+      <div class="second-container">
+        <div class="information-container">
+          <img src="./resources/images/information-main.jpg" alt="">
+          <h2>It doesn't hurt to keep practicing</h2>
+          <h4>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</h4>
+          <p>Emanuel, Sr Strategist at Hiring.com</p>
+        </div>
+        <div class="right-column">
+          <div class="text-and-images">
+            <img src="./resources/images/information-orientation.jpg" alt="">
+            <h2>Orientation date</h2>
+            <p>Tue 10/11 & Wed 10/12:8am-3pm</p>
+            <a href="#">Read more</a>
+          </div>
+          <div class="text-and-images">
+            <img src="./resources/images/information-campus.jpg" alt="">
+            <h2>Our campus</h2>
+            <p>Find which campus is close by you</p>
+            <a href="#">Read more</a>
+          </div>
+          <div class="text-and-images">
+            <img src="./resources/images/information-guest-lecture.jpg" alt="">
+            <h2>Our guest lecture</h2>
+            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      <!--end of It doesn't hurt container-->
+      </div>
+
+
     <!--End of overall container-->
-    <div class="main-content">
+    </div>
 
   <!--footer container-->
     <footer>

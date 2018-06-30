@@ -1,0 +1,128 @@
+/* Universal Styles */
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.main-content {
+  position: relative;
+  top: 4rem; /* To offset for fixed header. */
+}
+
+/* Header */
+header {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  color: black;
+  background-color: white;
+  height: 4rem;
+}
+
+header .header-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+header .header-content .logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+header .header-content .logo img {
+  height: 3rem;
+}
+
+.desktop-logo {
+  font-size: 2rem;
+}
+
+.desktop-logo span {
+  font-weight: bold;
+}
+
+header .header-content nav ul {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+
+header .header-content nav ul .middle {
+  padding: 0 1rem 0 1rem;
+}
+
+header .header-content nav ul .end {
+  padding: 0 1.5rem 0 1rem;
+}
+
+/* Learn Something New Everyday Box */
+
+.first-container {
+  display: flex;
+  background-color: grey;
+}
+
+.first-container .banner-container {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.first-container img {
+  width: 100%;
+}
+
+.first-container .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-container .text-container h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.first-container .text-container h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.first-container .text-container .sub-headline {
+  margin: 2rem 0 2rem 0;
+}
+
+.first-container .text-container .start-here-btn {
+  color: grey;
+  background-color: black;
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Second container Box */
+
+.second-container {
+  display: flex;
+  background-color: white;
+}
+
+.second-container .information-container {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.second-container .information-container img {
+  width: 100%;
+}
+
+.second-container .right-column .text-and-images img {
+  width: 35%;
+}

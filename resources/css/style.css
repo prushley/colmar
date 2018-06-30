@@ -243,3 +243,110 @@ header .header-content nav ul .end {
 #marketing {
   padding-bottom: 1.5rem;
 }
+
+/* Fourth Container Styles */
+
+.fourth-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fourth-container .headline {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 2rem 0rem;
+}
+
+.fourth-container .columns-container {
+  display: flex;
+  width: 100%;
+}
+
+.fourth-container .imagine-urban {
+  width: 60%;
+  height: auto;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.fourth-container .imagine-urban video {
+  width: 100%;
+  height: auto;
+}
+
+.fourth-container .imagine-urban h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.fourth-container .imagine-urban p {
+  padding-bottom: 2rem;
+}
+
+.fourth-container .right-column {
+  width: 40%;
+}
+
+.fourth-container .right-column .text-and-image2 {
+  width: 100%;
+}
+
+
+.fourth-container .right-column .text-and-image2 img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+#grey {
+  background-color: grey;
+}
+
+.fourth-container .right-column .text-and-image2 {
+  display: inline-flex;
+}
+
+.fourth-container .right-column .text-and-image2 .text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  height: auto;
+  padding-left: 1rem;
+}
+
+.fourth-container .right-column .text-and-image2 .text2 h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.fourth-container .right-column .text-and-image2 .text2 p {
+
+}
+
+/* Footer styles */
+
+footer {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  border-top: solid 0.1rem grey;
+}
+
+footer p {
+  padding-left: 1.5rem;
+}
+
+footer nav {
+  display: inline-flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+footer nav li {
+  padding: 0 1rem 0 1rem;
+}

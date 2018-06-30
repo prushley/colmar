@@ -10,6 +10,10 @@ html {
   top: 4rem; /* To offset for fixed header. */
 }
 
+p {
+  line-height: 1.5rem;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -79,6 +83,7 @@ header .header-content nav ul .end {
 
 .first-container .text-container {
   display: flex;
+  width: 40%;
   flex-direction: column;
   justify-content: center;
 }
@@ -105,9 +110,10 @@ header .header-content nav ul .end {
   font-weight: bold;
   display: flex;
   justify-content: space-around;
+  width: 80%;
 }
 
-/* Second container Box */
+/* Second container styles */
 
 .second-container {
   display: flex;
@@ -119,10 +125,121 @@ header .header-content nav ul .end {
   padding: 2rem 1.5rem;
 }
 
-.second-container .information-container img {
+.second-container img {
   width: 100%;
+}
+
+.second-container .information-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+.second-container .information-container h4 {
+  padding-top: 1.5rem;
+  color: grey;
+}
+
+.second-container .information-container p {
+  padding: 2rem 0;
+}
+
+.second-container .right-column {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 2rem;
+}
+
+
+.second-container .right-column .text-and-images {
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+  border: solid 0.1rem grey;
 }
 
 .second-container .right-column .text-and-images img {
   width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.second-container .right-column .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  height: auto;
+  padding-left: 1rem;
+}
+
+.second-container .right-column .text h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
+
+.second-container .right-column .text p {
+  padding: 0.5rem 0;
+}
+
+.second-container .right-column .text a {
+  color: blue;
+}
+
+#sacks {
+  background-color: grey;
+}
+
+/* Third container styles */
+
+.third-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: grey;
+}
+
+.headline {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+.six-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 4.5rem;
+}
+
+.box {
+  width: 30%;
+  margin: 1rem;
+  background-color: white;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+}
+
+.box h2 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.box p {
+  padding-left: 1rem;
+}
+
+.box .courses {
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+#animation,
+#marketing {
+  padding-bottom: 1.5rem;
 }

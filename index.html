@@ -2,10 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-
-    <!-- add back in later-->
     <link rel="stylesheet" href="./resources/css/reset.css">
-
     <link rel="stylesheet" href="./resources/css/style.css">
     <title>Colmar Academy</title>
   </head>
@@ -27,8 +24,13 @@
           <li><a href="#">For companies</a></li>
           <li><a class="end" href="#">Sign in</a></li>
       </nav>
+      <div class="mobile-nav">
+        <a href="#"><img src="./resources/images/ic-logo.svg" alt=""></a>
+        <a href="#"><img src="./resources/images/ic-on-campus.svg" alt=""></a>
+        <a href="#"><img src="./resources/images/ic-online.svg" alt=""></a>
+        <a href="#"><img src="./resources/images/ic-login.svg" alt=""></a>
+      </div>
     </div>
-    <!--add mobile header here later-->
   </header>
 
     <!--overall container-->
@@ -64,7 +66,8 @@
 
         <div class="right-column">
           <div class="text-and-images">
-            <img src="./resources/images/information-orientation.jpg" alt="">
+            <img id="information-orientation-desktop" src="./resources/images/information-orientation.jpg" alt="">
+            <img id="information-orientation-mobile" src="./resources/images/information-orientation-mobile.jpg" alt="">
             <div class="text">
               <h2>Orientation date</h2>
               <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -72,7 +75,8 @@
             </div>
           </div>
           <div class="text-and-images">
-            <img src="./resources/images/information-campus.jpg" alt="">
+            <img id="campus-desktop" src="./resources/images/information-campus.jpg" alt="">
+            <img id="campus-mobile" src="./resources/images/information-campus-mobile.jpg" alt="">
             <div class="text">
               <h2>Our campus</h2>
               <p>Find which campus is close by you</p>
@@ -80,7 +84,8 @@
             </div>
           </div>
           <div id="sacks" class="text-and-images">
-            <img src="./resources/images/information-guest-lecture.jpg" alt="">
+            <img id="sacks-desktop" src="./resources/images/information-guest-lecture.jpg" alt="">
+            <img id="sacks-mobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="">
             <div class="text">
               <h2>Our guest lecture</h2>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -147,7 +152,7 @@
         <h2 class="headline">Thesis exhibit</h2>
         <div class="columns-container">
           <div class="imagine-urban">
-            <video autoplay="" muted="" loop"">
+            <video autoplay="" muted="" loop="">
               <source src="./resources/videos/thesis.mp4" type="video/mp4">
             </video>
             <h2>Reimagine urban</h2>

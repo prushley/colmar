@@ -65,11 +65,43 @@ header .header-content nav ul .end {
   padding: 0 1.5rem 0 1rem;
 }
 
+header .mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  header .header-content .logo {
+    display: none;
+    padding-left: 0;
+  }
+
+  .logo img {
+    display: none;
+    padding-left: 0;
+    }
+
+  .desktop-logo {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  header .mobile-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+  }
+}
+
 /* Learn Something New Everyday Box */
 
 .first-container {
   display: flex;
-  background-color: grey;
+  background-color: silver;
 }
 
 .first-container .banner-container {
@@ -103,14 +135,58 @@ header .header-content nav ul .end {
 }
 
 .first-container .text-container .start-here-btn {
-  color: grey;
+  color: dimgray;
   background-color: black;
   padding: 0.5rem 0 0.5rem 0;
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 1.1rem;
   display: flex;
   justify-content: space-around;
   width: 80%;
+}
+
+.first-container .text-container .start-here-btn p {
+  color: lightgrey;
+}
+
+@media only screen and (max-width: 480px) {
+  .first-container {
+    flex-direction: column;
+  }
+
+  .first-container .banner-container {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .first-container .text-container {
+    width: 100%;
+  }
+
+  .first-container .text-container h2 {
+    font-size: 2rem;
+    padding-left: 1rem;
+  }
+
+  .first-container .text-container .sub-headline h4 {
+    font-size: 1.25rem;
+    padding-left: 1rem;
+  }
+
+  .first-container .text-container .start-here-btn {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    color: white;
+    margin: 0 1rem 2rem 1rem;
+  }
+
+  .first-container .text-container .start-here-btn p {
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+  }
+
 }
 
 /* Second container styles */
@@ -189,6 +265,57 @@ header .header-content nav ul .end {
 
 #sacks {
   background-color: grey;
+}
+
+#information-orientation-mobile,
+#campus-mobile,
+#sacks-mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+.information-container {
+  display: none;
+}
+
+.second-container .right-column {
+  width: 100%;
+}
+
+.second-container .right-column {
+  width: 100%;
+}
+
+
+.second-container .right-column .text-and-images {
+  display: block;
+  border: none;
+}
+
+#information-orientation-desktop,
+#campus-desktop,
+#sacks-desktop {
+  display: none;
+}
+
+#information-orientation-mobile,
+#campus-mobile,
+#sacks-mobile {
+  display: block;
+  width: 448px;
+}
+
+#sacks {
+  background-color: white;
+}
+
+.second-container .right-column .text-and-images img {
+  padding: 1rem;
+  margin: 0;
+}
+
+
 }
 
 /* Third container styles */
